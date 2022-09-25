@@ -2,12 +2,15 @@
 {
 	margin: 0px;
 	padding: 0px;
+	scroll-behavior: smooth;
+
 }
 body
 {
 	font-family: Arial,sans-serif;
 	background: black;
 	color: white;
+	scroll-behavior: smooth;
 }
 .bg-pg
 {
@@ -218,5 +221,12 @@ body
 .enddiv
 {
 	background: black;
-	height: 200px;
+	height: 170px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+.enddiv h1
+{
+	text-shadow: 2px 2px 2px darkgray;
 }
